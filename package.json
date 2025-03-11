@@ -1,0 +1,24 @@
+{
+    "name": "random-number-api",
+    "version": "1.0.0",
+    "description": "",
+    "license": "ISC",
+    "author": "GeorgiMY",
+    "type": "commonjs",
+    "main": "./dist/main.js",
+    "scripts": {
+        "build": "tsc",
+        "start": "nodemon src/main.ts",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "dependencies": {
+        "dotenv": "^16.4.7",
+        "express": "^4.21.2",
+        "typescript": "^5.8.2"
+    },
+    "devDependencies": {
+        "@types/express": "^5.0.0",
+        "nodemon": "^3.1.9",
+        "ts-node": "^10.9.2"
+    }
+}
